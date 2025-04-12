@@ -16,10 +16,8 @@ An Arch Linux System Tool that automates the setup and configuration of an Arch 
   - Media packages
   - Fonts
 - 🛠️ Automatic installation of yay AUR helper
-- 🖥️ GNOME desktop environment setup with tiling-like features
 - 🎮 Flatpak integration for specific applications
 - ⚙️ Automatic service configuration
-- 🔧 GNOME extensions and hotkey configuration
 
 ## Prerequisites
 
@@ -32,7 +30,7 @@ An Arch Linux System Tool that automates the setup and configuration of an Arch 
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/typecraft-dev/crucible.git
+git clone git@github.com:AliceAurelious/crucible.git
 ```
 
 2. Run the setup script:
