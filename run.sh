@@ -7,7 +7,8 @@ print_logo() {
    / ____/______  _______(_) /_  / /__   
   / /   / ___/ / / / ___/ / __ \/ / _ \  
  / /___/ /  / /_/ / /__/ / /_/ / /  __/  Arch Linux System Crafting Tool
- \____/_/   \__,_/\___/_/_.___/_/\___/   by: typecraft
+ \____/_/   \__,_/\___/_/_.___/_/\___/   oroginal by: typecraft
+ 					 modified by: Alice.Aurelious
 
 EOF
 }
@@ -82,14 +83,6 @@ for service in "${SERVICES[@]}"; do
     echo "$service is already enabled"
   fi
 done
-
-# Install gnome specific things to make it like a tiling WM
-echo "Installing Gnome extensions..."
-. gnome/gnome-extensions.sh
-echo "Setting Gnome hotkeys..."
-. gnome/gnome-hotkeys.sh
-echo "Configuring Gnome..."
-. gnome/gnome-settings.sh
 
 # Some programs just run better as flatpaks. Like discord/spotify
 echo "Installing flatpaks (like discord and spotify)"
