@@ -20,7 +20,7 @@ cd ~
 if [ -d "$REPO_NAME" ]; then
 	echo "Repository '$REPO_NAME' already exists. Skipping clone"
 else
-	commandgit clone "$REPO_URL"
+	git clone "$REPO_URL"
 fi
 
 # Check if the clone was successful
@@ -30,7 +30,7 @@ if [ $? -eq 0 ]; then
 	stow ghostty
 	stow nvim
 else
-	commandecho "Failed to clone the repository."
+	echo "Failed to clone the repository."
 	exit 1
 fi
 

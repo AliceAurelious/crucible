@@ -80,7 +80,7 @@ for service in "${SERVICES[@]}"; do
 		echo "Enabling $service..."
 		sudo systemctl enable "$service"
 	else
-		commandecho "$service is already enabled"
+		echo "$service is already enabled"
 	fi
 done
 
