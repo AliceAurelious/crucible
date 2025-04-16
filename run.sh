@@ -25,8 +25,8 @@ source utils.sh
 
 # Source the package list
 if [ ! -f "packages.conf" ]; then
-  echo "Error: packages.conf not found!"
-  exit 1
+	echo "Error: packages.conf not found!"
+	exit 1
 fi
 
 source packages.conf
@@ -39,16 +39,16 @@ sudo pacman -Syu --noconfirm
 
 # Install yay AUR helper if not present
 if ! command -v yay &> /dev/null; then
-  echo "Installing yay AUR helper..."
-  sudo pacman -S --needed git base-devel --noconfirm
-  git clone https://aur.archlinux.org/yay.git
-  cd yay
-  echo "building yay.... yaaaaayyyyy"
-  makepkg -si --noconfirm
-  cd ..
-  rm -rf yay
+	echo "Installing yay AUR helper..."
+	sudo pacman -S --needed git base-devel --noconfirm
+	git clone https://aur.archlinux.org/yay.git
+	cd yay
+	echo "building yay.... yaaaaayyyyy"
+	makepkg -si --noconfirm
+	cd ..
+	rm -rf yay
 else
-  echo "yay is already installed"
+	echo "yay is already installed"
 fi
 
 # Install packages by category
@@ -76,12 +76,12 @@ install_packages "${FONTS[@]}"
 # Enable services
 echo "Configuring services..."
 for service in "${SERVICES[@]}"; do
-  if ! systemctl is-enabled "$service" &> /dev/null; then
-    echo "Enabling $service..."
-    sudo systemctl enable "$service"
-  else
-    echo "$service is already enabled"
-  fi
+	if ! systemctl is-enabled "$service" &> /dev/null; then
+		echo "Enabling $service..."
+		sudo systemctl enable "$service"
+	else
+		commandecho "$service is already enabled"
+	fi
 done
 
 # Some programs just run better as flatpaks. Like discord/spotify
