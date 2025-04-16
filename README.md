@@ -1,4 +1,4 @@
-# Typecraft's Crucible 🛠️ modified by Alice.Aureliius
+# Typecraft's Crucible 🛠️ modified by Alice.Aurelious
 
 this is a version of [Typecraft's Crucible](https://github.com/typecraft-dev/crucible) I am modifying for my own use cases.
 
