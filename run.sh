@@ -7,7 +7,7 @@ print_logo() {
    / ____/______  _______(_) /_  / /__   
   / /   / ___/ / / / ___/ / __ \/ / _ \  
  / /___/ /  / /_/ / /__/ / /_/ / /  __/  Arch Linux System Crafting Tool
- \____/_/   \__,_/\___/_/_.___/_/\___/   oroginal by: typecraft
+ \____/_/   \__,_/\___/_/_.___/_/\___/   original by: typecraft
  					 modified by: Alice.Aurelious
 
 EOF

@@ -1,4 +1,4 @@
-# Typecraft's Crucible 🛠️ modified by Alice.Aurelious
+# Crucible 🛠️
 
 this is a version of [Typecraft's Crucible](https://github.com/typecraft-dev/crucible) I am modifying for my own use cases.
 
@@ -30,7 +30,7 @@ An Arch Linux System Tool that automates the setup and configuration of an Arch 
 1. Clone this repository:
 
 ```bash
-git clone git@github.com:AliceAurelious/crucible.git
+git clone https://github.com/AliceAurelious/crucible.git
 ```
 
 2. Run the setup script:

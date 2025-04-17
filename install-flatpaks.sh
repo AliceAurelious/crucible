@@ -2,7 +2,7 @@ FLATPAKS=(
 	"discord"
 )
 
-# Install Flatpak if not installed
+# Install Flatpak if not installed already
 if ! command -v flatpak &> /dev/null; then
 	echo "Installing Flatpak"
 	yay -S flatpak --noconfirm
