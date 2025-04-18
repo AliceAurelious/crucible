@@ -1,6 +1,6 @@
 # Crucible 🛠️
 
-this is a version of [Typecraft's Crucible](https://github.com/typecraft-dev/crucible) I am modifying for my own use cases.
+this is a Fork of [Typecraft's Crucible](https://github.com/typecraft-dev/crucible) I am modifying for my own use cases.
 
 An Arch Linux System Tool that automates the setup and configuration of an Arch Linux system. It installs and configures packages, desktop environments, and various utilities to create a fully functional development environment.
 
