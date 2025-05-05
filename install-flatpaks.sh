@@ -1,5 +1,7 @@
+#!/bin/bash
 FLATPAKS=(
 	"discord"
+	"librewolf"
 )
 
 # Install Flatpak if not installed already

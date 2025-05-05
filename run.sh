@@ -5,10 +5,9 @@ print_logo() {
     cat << "EOF"
     ______                _ __    __     
    / ____/______  _______(_) /_  / /__   
-  / /   / ___/ / / / ___/ / __ \/ / _ \  
- / /___/ /  / /_/ / /__/ / /_/ / /  __/  Arch Linux System Crafting Tool
- \____/_/   \__,_/\___/_/_.___/_/\___/   original by: typecraft
- 					 modified by: Alice.Aurelious
+  / /   / ___/ / / / ___/ / __ \/ / _ \  Arch Linux System Crafting Tool
+ / /___/ /  / /_/ / /__/ / /_/ / /  __/  original by: typecraft
+ \____/_/   \__,_/\___/_/_.___/_/\___/   modified by: Alice.Aurelious
 
 EOF
 }
